@@ -1,4 +1,0 @@
-const MESSAGE_TYPE_MESSAGE = "new_message";
-const MESSAGE_TYPE_NICKNAME = "nickname";
-
-export { MESSAGE_TYPE_MESSAGE, MESSAGE_TYPE_NICKNAME };
