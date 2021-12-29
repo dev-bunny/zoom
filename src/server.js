@@ -33,8 +33,11 @@ wss.on("connection", (socket) => {
         sockets.forEach((aSocket) =>
           aSocket.send(`${socket.nickname}: ${message.payload}`)
         );
+        break;
       case "nickname":
         socket["nickname"] = message.payload;
+        break;
+      default:
     }
   });
 });
